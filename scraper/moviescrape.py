@@ -13,25 +13,34 @@ def titleChange(role):
     }
     return switcher.get(role)
 
-def crew(movieurl,rating):
+def castCrew(movieurl,rating):
 
-    print('start moviescrape')
+    print('start crew scrape')
     page = requests.get('https://www.imdb.com/title/' + movieurl + '/fullcredits')
     soup = BeautifulSoup(page.text, 'html.parser')
 
     maincontent = soup.find(class_='article listo')
 
-    crew = []
+    castcrew = []
 
     dictionary = ['Directed','Writing','Produced','Music','Cinematography','Film']
     #this finds behind the scenes cast
     credits = maincontent.findAll(class_='simpleTable simpleCreditsTable')
     header = maincontent.findAll(class_='dataHeaderWithBorder')
     j = 0
+    castParsed = False
     for i in range(len(header)):
-        if 'Cast' in str(header[i].text):
+        if 'Cast' in str(header[i].text) and castParsed is False:
             #if its the header for class list, skip iteration
-            continue
+            castList = maincontent.find(class_="cast_list")
+            castCards = castList.findAll('tr')
+            for k in range(3):
+                try:
+                    castName = castCards[k + 1].find('a').find('img').get('alt')
+                    castcrew.append(['Cast', castName, rating])
+                except:
+                    print('failed to get cast member')
+            castParsed=True
         try:
             
             
@@ -41,7 +50,7 @@ def crew(movieurl,rating):
                 names = credits[j].findAll(class_='name')
                 for person in names:
                     name = str(person.text)
-                    crew.append([titleChange(position),name[2:len(name)-2],rating])
+                    castcrew.append([titleChange(position),name[2:len(name)-2],rating])
             if (position == 'Music'):
                 break
         except:
@@ -49,4 +58,4 @@ def crew(movieurl,rating):
         j+=1
 
     
-    return crew
+    return castcrew
