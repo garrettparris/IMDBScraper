@@ -40,7 +40,8 @@ def castCrew(movieurl,rating):
                     castcrew.append(['Cast', castName, rating])
                 except:
                     print('failed to get cast member')
-            castParsed=True
+            castParsed = True
+            continue
         try:
             
             
@@ -51,11 +52,11 @@ def castCrew(movieurl,rating):
                 for person in names:
                     name = str(person.text)
                     castcrew.append([titleChange(position),name[2:len(name)-2],rating])
-            if (position == 'Music'):
+            if (position == 'Casting'):
                 break
         except:
             print('none')
         j+=1
 
-    
+    print(castcrew)
     return castcrew
