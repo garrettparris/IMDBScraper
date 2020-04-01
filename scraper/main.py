@@ -4,7 +4,7 @@ import time
 import analysis
 def main():
     start = time.time()
-    ratinglist = ratingscrape.getRatings('ur115681260')
+    ratinglist = ratingscrape.getRatings('ur80333814')
     print('--- ratings retrieved ---')
     print('--- gathering cast & crew info ---')
     # results = [
@@ -30,12 +30,27 @@ def main():
         if castcrew[4] is not None: results[4].append(castcrew[4])
         if castcrew[5] is not None: results[5].append(castcrew[5])
         if castcrew[6] is not None: results[6].append(castcrew[6])
-    print(results)
+    # print(results)
     end = time.time()
     hours, rem = divmod(end-start, 3600)
     minutes, seconds = divmod(rem, 60)
     d = 0
-    # print(analysis.stats(results))
+    topcastcrew = analysis.stats(results)
+
+    print('top directors: ' + str(topcastcrew[0]))
+    print(' ')
+    print('top writers: ' + str(topcastcrew[1]))
+    print(' ')
+    print('top producers: ' + str(topcastcrew[2]))
+    print(' ')
+    print('top musicians: ' + str(topcastcrew[3]))
+    print(' ')
+    print('top cinematographers: ' + str(topcastcrew[4]))
+    print(' ')
+    print('top editors: ' + str(topcastcrew[5]))
+    print(' ')
+    print('top cast: ' + str(topcastcrew[6]))
+    print(' ')
     print("{:0>2}:{:0>2}:{:05.2f}".format(int(hours), int(minutes), seconds))
     
     return
