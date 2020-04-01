@@ -1,0 +1,40 @@
+
+
+
+DIRECTORS
+[[['David Fincher', '7'], ['Quentin Tarantino', '8'], ['Quentin Tarantino', '9'], ['Robert Zemeckis', '8'], ['David Fincher', '8'], ['Peter Jackson', '10'], ['Peter Jackson', '9'], ['Steven Spielberg', '9'], ['Sidney Lumet', '7'], ['Christopher Nolan', '9'], ['Francis Ford Coppola', '6'], ['Francis Ford Coppola', '8'], ['Frank Darabont', '10']],
+DIRECTORS
+
+
+
+WRITERS
+ [[['Andrew Kevin Walker', '7']], [['Quentin Tarantino', '8']], [['Quentin Tarantino', '9'], ['Roger Avary', '9'], ['Quentin Tarantino', '9']], [['Winston Groom', '8'], ['Eric Roth', '8']], [['Chuck Palahniuk', '8'], ['Jim Uhls', '8']], [['J.R.R. Tolkien', '10'], ['Fran Walsh', '10'], ['Philippa Boyens', '10'], ['Peter Jackson', '10']], [['J.R.R. Tolkien', '9'], ['Fran Walsh', '9'], ['Philippa Boyens', '9'], ['Peter Jackson', '9']], [['Thomas Keneally', '9'], ['Steven Zaillian', '9']], [['Reginald Rose', '7'], ['Reginald Rose', '7']],
+ [['Jonathan Nolan', '9'], ['Christopher Nolan', '9'], ['Christopher Nolan', '9'], ['David S. Goyer', '9'], ['Bob Kane', '9']], [['Francis Ford Coppola', '6'], ['Mario Puzo', '6'], ['Mario Puzo', '6']], [['Mario Puzo', '8'], ['Francis Ford Coppola', '8'], ['Mario Puzo', '8']],
+ [['Stephen King', '10'], ['Frank Darabont', '10']]],
+WRITERS
+
+
+PRODUCERS
+    [[['Stephen Joel Brown', '7'], ['Phyllis Carlyle', '7'], ['William C. Gerrity', '7'], ['Nana Greenwald', '7'], ['Lynn Harris', '7'], ['Dan Kolsrud', '7'], ['Anne Kopelson', '7'], ['Arnold Kopelson', '7'], ['Gianni Nunnari', '7'], ['Sanford Panitch', '7'], ['Michele Platt', '7'], ['Richard Saperstein', '7']], [['Lawrence Bender', '8'], ['William Paul Clark', '8'], ['Christoph Fisser', '8'], ['Henning Molfenter', '8'], ['Bruce Moriarty', '8'], ['Lloyd Phillips', '8'], ['Pilar Savone', '8'], ['Erica Steinberg', '8'], ['Bob Weinstein', '8'], ['Harvey Weinstein', '8'], ['Charlie Woebcken', '8']], [['Lawrence Bender', '9'], ['Danny DeVito', '9'], ['Richard N. Gladstein', '9'], ['Michael Shamberg', '9'], ['Stacey Sher', '9'], ['Bob Weinstein', '9'], ['Harvey Weinstein', '9']], [['Wendy Finerman', '8'], ['Charles Newirth', '8'], ['Steve Starkey', '8'], ['Steve Tisch', '8']], [['Ross Grayson Bell', '8'], ['Ceán Chaffin', '8'], ['John S. 
+Dorsey', '8'], ['Art Linson', '8'], ['Arnon Milchan', '8']], [['Peter Jackson', '10'], ['Michael Lynne', '10'], ['Mark Ordesky', '10'], ['Barrie M. Osborne', '10'], ['Rick Porras', '10'], ['Tim Sanders', '10'], ['Jamie Selkirk', '10'], ['Robert Shaye', '10'], ['Ellen Somers', '10'], ['Fran Walsh', '10'], ['Bob Weinstein', '10'], ['Harvey Weinstein', '10']], [['Peter Jackson', '9'], ['Michael Lynne', '9'], ['Eric Monette', '9'], 
+['Mark Ordesky', '9'], ['Barrie M. Osborne', '9'], ['Rick Porras', '9'], ['Jamie Selkirk', '9'], ['Robert Shaye', '9'], ['Fran Walsh', '9'], ['Bob Weinstein', '9'], ['Harvey Weinstein', '9']], [['Irving Glovin', '9'], ['Kathleen Kennedy', '9'], ['Branko Lustig', '9'], ['Gerald R. Molen', '9'], ['Robert Raymond', '9'], ['Lew Rywin', '9'], ['Steven Spielberg', '9']], [['Henry Fonda', '7'], ['George Justin', '7'], ['Reginald Rose', '7']], [['Kevin De La Noy', '9'], ['Jordan Goldberg', '9'], ['Philip Lee', '9'], ['Benjamin Melniker', '9'], ['Christopher Nolan', '9'], ['Lorne Orleans', '9'], ['Charles Roven', '9'], ['Emma Thomas', '9'], ['Thomas Tull', '9'], ['Michael E. Uslan', '9']], [['Francis Ford Coppola', '6'], ['Gray Frederickson', '6'], ['Fred Roos', '6'], ['Mona Skager', '6'], ['Robert Evans', '6']], [['Gray Frederickson', '8'], ['Al Ruddy', '8'], 
+['Robert Evans', '8']], [['Liz Glotzer', '10'], ['David V. Lester', '10'], ['Niki Marvin', '10']]],
+PRODUCERS
+
+MUSIC
+ [[['Howard Shore', '7']], [], [], [['Alan Silvestri', '8']], [['Dust Brothers', '8'], ['John King', '8'], ['Michael 
+Simpson', '8']], [['Howard Shore', '10']], [['Howard Shore', '9']], [['John Williams', '9']], [['Kenyon Hopkins', '7'], ['Kenyon Hopkins', '7']], [['James Newton Howard', '9'], ['Hans Zimmer', '9']], [['Nino Rota', '6']], [['Nino Rota', '8']], [['Thomas Newman', '10']]],
+MUSIC
+
+CINEMATOGRAPHER
+ [[['Darius Khondji', '7']], [['Robert Richardson', '8']], [['Andrzej Sekula', '9']], [['Don Burgess', '8']], [['Jeff Cronenweth', '8']], [['Andrew Lesnie', '10']], [['Andrew Lesnie', '9']], [['Janusz Kaminski', '9']], [['Boris Kaufman', '7']], [['Wally Pfister', '9']], [['Gordon Willis', '6']], [['Gordon Willis', '8']], [['Roger Deakins', '10']]],
+CINEMATOGRAPHER
+ 
+EDITOR 
+[[['Richard Francis-Bruce', '7']], [['Sally Menke', '8']], [['Sally Menke', '9']], [['Arthur Schmidt', '8']], [['James Haygood', '8']], [['John Gilbert', '10']], [['Jamie Selkirk', '9']], [['Michael Kahn', '9']], [['Carl Lerner', '7']], [['Lee Smith', '9']], [['Barry Malkin', '6'], ['Richard Marks', '6'], ['Peter Zinner', '6']], [['William Reynolds', '8'], ['Peter Zinner', '8']], [['Richard Francis-Bruce', '10']]]
+EDITOR
+
+CAST
+  , [[['Morgan Freeman', '7'], ['Andrew Kevin Walker', '7'], ['Daniel Zacapa', '7']], [['Brad Pitt', '8'], ['Mélanie Laurent', '8'], ['Christoph Waltz', '8']], [['Tim Roth', '9'], ['Amanda Plummer', '9'], ['Laura Lovelace', '9']], [['Tom Hanks', '8'], ['Rebecca Williams', '8'], ['Sally Field', '8']], [['Edward Norton', '8'], ['Brad Pitt', '8'], ['Meat Loaf', '8']], [['Alan Howard', '10'], ['Noel Appleby', '10'], ['Sean Astin', '10']], [['Noel Appleby', '9'], ['Ali Astin', '9'], ['Sean Astin', '9']], [['Liam Neeson', '9'], ['Ben Kingsley', '9'], ['Ralph Fiennes', '9']], [['Martin Balsam', '7'], ['John Fiedler', '7'], ['Lee J. Cobb', '7']], [['Christian Bale', '9'], ['Heath Ledger', '9'], ['Aaron Eckhart', '9']], [['Al Pacino', '6'], ['Robert Duvall', '6'], ['Diane Keaton', '6']], [['Marlon Brando', '8'], ['Al Pacino', '8'], ['James Caan', '8']], [['Tim Robbins', '10'], ['Morgan Freeman', '10'], 
+['Bob Gunton', '10']]]]
+CAST

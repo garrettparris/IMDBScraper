@@ -10,7 +10,7 @@ def getRatings(userurl):
 
 
     print('start')
-    page = requests.get('https://www.imdb.com/user/ur80333814/ratings')
+    page = requests.get('https://www.imdb.com/user/' + userurl + '/ratings')
     soup = BeautifulSoup(page.text, 'html.parser')
 
     nextPage = True

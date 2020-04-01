@@ -21,7 +21,21 @@ def castCrew(movieurl,rating):
 
     maincontent = soup.find(class_='article listo')
 
-    castcrew = []
+    castcrew = [None,[],[],[],[],[],[]]
+
+    # returns[
+    #     0[director]
+    #     1[writer]
+    #     2[producer]
+    #     3[musician]
+    #     4[cinematographer]
+    #     5[editor]
+    #     6[cast]
+    # ]
+
+
+
+
 
     dictionary = ['Directed','Writing','Produced','Music','Cinematography','Film']
     #this finds behind the scenes cast
@@ -37,7 +51,7 @@ def castCrew(movieurl,rating):
             for k in range(3):
                 try:
                     castName = castCards[k + 1].find('a').find('img').get('alt')
-                    castcrew.append(['Cast', castName, rating])
+                    castcrew[6].append([castName, rating])
                 except:
                     print('failed to get cast member')
             castParsed = True
@@ -51,12 +65,22 @@ def castCrew(movieurl,rating):
                 names = credits[j].findAll(class_='name')
                 for person in names:
                     name = str(person.text)
-                    castcrew.append([titleChange(position),name[2:len(name)-2],rating])
+                    if position == 'Directed':
+                        castcrew[0] = [name[2:len(name)-2],rating]
+                    elif position == 'Writing':
+                        castcrew[1].append([name[2:len(name) - 2], rating])
+                    elif position == 'Produced':
+                        castcrew[2].append([name[2:len(name) - 2], rating])
+                    elif position == 'Music':
+                        castcrew[3].append([name[2:len(name) - 2], rating])
+                    elif position == 'Cinematography':
+                        castcrew[4].append([name[2:len(name) - 2], rating])
+                    elif position == 'Film':
+                        castcrew[5].append([name[2:len(name) - 2], rating])
             if (position == 'Casting'):
                 break
         except:
             print('none')
         j+=1
 
-    print(castcrew)
     return castcrew
