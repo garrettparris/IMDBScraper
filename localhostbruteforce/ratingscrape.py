@@ -31,6 +31,14 @@ def getRatings(userurl):
             #retrieve date rated
             date = parseDate(card.findAll('p')[1].text)
             
+            # movieinfo = [
+            #     0 title
+            #     1 movieurl
+            #     2 rating
+            #     3 date
+            # ]
+
+
             movieinfo.append(header.find('a').text)
             movieinfo.append(movieurl)
             movieinfo.append(str(rating))

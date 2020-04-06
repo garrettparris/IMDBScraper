@@ -4,7 +4,7 @@ import time
 import analysis
 def main():
     start = time.time()
-    ratinglist = ratingscrape.getRatings('ur80333814')
+    ratinglist = ratingscrape.getRatings('ur68950140')
     print('--- ratings retrieved ---')
     print('--- gathering cast & crew info ---')
     # results = [
@@ -19,7 +19,9 @@ def main():
 
     results = [[], [], [], [], [], [], []]
     index = 0
+    dates = []
     for item in ratinglist:
+        dates.append(item[3])
         index += 1
         print(index)
         castcrew = moviescrape.castCrew(item[1], item[2])
